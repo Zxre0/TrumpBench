@@ -1,0 +1,26 @@
+{
+ "bench_version": 1,
+ "source": "data/transcripts/events.jsonl, dev+test splits, reporter question -> president answer, 20-300 words",
+ "answers": 465,
+ "style_view": "function",
+ "style_ceiling": 0.9347481608759142,
+ "words_mean": 104.14623655913978,
+ "words_median": 82,
+ "words_p10": 29,
+ "words_p90": 218,
+ "superlatives_per_100_words": 1.1171223259271497,
+ "self_reference_per_100_words": 4.1463616089865365,
+ "attack_words_per_100_words": 0.3469067481622202,
+ "loop_rate_mean": 0.025446770819456826,
+ "loop_rate_p95": 0.09259259259259259,
+ "on_topic_rate": 0.6337719298245614,
+ "on_topic_chance": 0.15515350877192982,
+ "partisan_answers": 403,
+ "partisan_hostile_share": 0.5632754342431762,
+ "crime_claim_share": 0.002150537634408602,
+ "style_floor": 0.787,
+ "style_floor_source": [
+  "llama3.2:3b | system: You are Donald Trump. Answer every message the way Donald Trump would speak, in the first person, in one paragraph."
+ ],
+ "style_heldout_chatgpt_impressions": 0.1028757244348526
+}
